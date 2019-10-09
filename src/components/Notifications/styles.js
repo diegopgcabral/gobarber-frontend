@@ -60,7 +60,7 @@ export const Notification = styled.div`
   & + div {
     margin-top: 15px;
     padding-top: 15px;
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   p {
@@ -77,10 +77,10 @@ export const Notification = styled.div`
     font-size: 12px;
     border: 0;
     background: none;
-    color: ${lighten(0.2, '#7159c1')}
+    color: ${lighten(0.2, '#7159c1')};
     padding: 0 5px;
     margin: 0 5px;
-    border-left: 1px solid rgba(255,255,255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   ${props =>
