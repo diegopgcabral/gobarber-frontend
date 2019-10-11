@@ -21,20 +21,25 @@ export default function Profile() {
       <Form initialData={profile} onSubmit={handleSubmit}>
         <AvatarInput name="avatar_id" />
 
-        <Input name="name" placeholder="Nome completo" />
-        <Input name="email" type="email" placeholder="Seu e-mail" />
+        <Input name="name" autoComplete="off" placeholder="Nome completo" />
+        <Input
+          name="email"
+          type="email"
+          autoComplete="off"
+          placeholder="Seu endereço de e-mail"
+        />
 
         <hr />
 
         <Input
-          name="oldPassword"
           type="password"
+          name="oldPassword"
           placeholder="Sua senha atual"
         />
         <Input name="password" type="password" placeholder="Nova senha" />
         <Input
-          name="confirmPassword"
           type="password"
+          name="confirmPassword"
           placeholder="Confirmação de senha"
         />
 

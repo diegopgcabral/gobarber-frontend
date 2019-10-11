@@ -23,19 +23,18 @@ export const Container = styled.div`
         color: rgba(255, 255, 255, 0.7);
       }
     }
+    span {
+      color: #fb6f91;
+      align-self: flex-start;
+      margin: 0 0 10px;
+      font-weight: bold;
+    }
 
     hr {
       border: 0;
       height: 1px;
       background: rgba(255, 255, 255, 0.2);
       margin: 10px 0 20px;
-    }
-
-    span {
-      color: #fb6f91;
-      align-self: flex-start;
-      margin: 0 0 10px;
-      font-weight: bold;
     }
 
     button {
